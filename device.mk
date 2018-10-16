@@ -25,3 +25,11 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 # Boot animation
 TARGET_SCREEN_HEIGHT := 400
 TARGET_SCREEN_WIDTH := 400
+
+# Ramdisk
+PRODUCT_PACKAGES += \
+    fstab.platy \
+    init.platy.rc \
+    init.qcom.usb.rc \
+    init.target.rc \
+    ueventd.platy.rc
